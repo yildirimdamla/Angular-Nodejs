@@ -8,9 +8,11 @@ import { TableService } from 'src/services/table.service';
   styleUrls: ['./admin-panel.component.css'],
 })
 export class AdminPanelComponent implements OnInit {
-  table_example = table_example;
+  data = [];
 
   constructor(private _tableservice: TableService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.data = this._tableservice.GetTableRows();
+  }
 }
