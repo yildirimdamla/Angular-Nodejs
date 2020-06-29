@@ -12,6 +12,9 @@ import { ServicesSectionComponent } from './home/services-section/services-secti
 import { TestimonialsSectionComponent } from './home/testimonials-section/testimonials-section.component';
 import { ProductsSectionComponent } from './home/products-section/products-section.component';
 import { ClientSectionComponent } from './home/client-section/client-section.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { ClientSectionComponent } from './home/client-section/client-section.com
     TestimonialsSectionComponent,
     ProductsSectionComponent,
     ClientSectionComponent,
+    RegisterComponent,
+    LoginComponent,
+    ForgotPasswordComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
