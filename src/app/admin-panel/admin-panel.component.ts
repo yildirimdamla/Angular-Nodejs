@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { table_example } from 'src/data/table-example';
 import { TableService } from 'src/services/table.service';
+import { HttpClient } from '@angular/common/http';
+import { table_schema } from 'src/data/table-example';
 
 @Component({
   selector: 'app-admin-panel',
@@ -8,11 +9,14 @@ import { TableService } from 'src/services/table.service';
   styleUrls: ['./admin-panel.component.css'],
 })
 export class AdminPanelComponent implements OnInit {
-  data = [];
+  data: table_schema[];
 
-  constructor(private _tableservice: TableService) {}
+  constructor(private _tableservice: TableService, private http: HttpClient) {}
+  public productsArray: table_schema[];
 
   ngOnInit(): void {
-    this.data = this._tableservice.GetTableRows();
+    this._tableservice.getData().subscribe((res) => {
+      this.data = res;
+    });
   }
 }
