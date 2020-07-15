@@ -1,518 +1,3 @@
-export const table_example = [
-  {
-    _id: '5efa45ebac19e51a5af9259e',
-    name: 'Brenden Wagner',
-    position: 'Software Engineer',
-    office: 'San Francisco',
-    age: '28',
-    start_date: '2011/06/07',
-    salary: '$206.850',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9258a',
-    name: 'Rhona Davidson',
-    position: 'Integration Specialist',
-    office: 'Tokyo',
-    age: '55',
-    start_date: '2010/10/14',
-    salary: '$327.900',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9259d',
-    name: 'Jennifer Chang',
-    position: 'Regional Director',
-    office: 'Singapore',
-    age: '28',
-    start_date: '2010/11/14',
-    salary: '$357.650',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9259f',
-    name: 'Fiona Green',
-    position: 'Chief Operating officer (COO)',
-    office: 'San Francisco',
-    age: '48',
-    start_date: '2010/03/11',
-    salary: '$850.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925aa',
-    name: 'Timothy Mooney',
-    position: 'office Manager',
-    office: 'London',
-    age: '37',
-    start_date: '2008/12/11',
-    salary: '$136.200',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a2',
-    name: 'Suki Burks',
-    position: 'Developer',
-    office: 'London',
-    age: '53',
-    start_date: '2009/10/22',
-    salary: '$114.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a7',
-    name: 'Howard Hatfield',
-    position: 'Manager',
-    office: 'San Francisco',
-    age: '51',
-    start_date: '2008/12/16',
-    salary: '$164.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a6',
-    name: 'Unity Butler',
-    position: 'Marketing Designer',
-    office: 'San Francisco',
-    age: '47',
-    start_date: '2009/12/09',
-    salary: '$85.675',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925ab',
-    name: 'Jackson Bradshaw',
-    position: 'Director',
-    office: 'New York',
-    age: '65',
-    start_date: '2008/09/26',
-    salary: '$645.750',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9258b',
-    name: 'Colleen Hurst',
-    position: 'Javascript Developer',
-    office: 'San Francisco',
-    age: '39',
-    start_date: '2009/09/15',
-    salary: '$205.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925af',
-    name: 'Thor Walton',
-    position: 'Developer',
-    office: 'New York',
-    age: '61',
-    start_date: '2013/08/11',
-    salary: '$98.540',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92585',
-    name: 'Ashton Cox',
-    position: 'Junior Technical Author',
-    office: 'San Francisco',
-    age: '66',
-    start_date: '2009/01/12',
-    salary: '$86.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92587',
-    name: 'Airi Satou',
-    position: 'Accountant',
-    office: 'Tokyo',
-    age: '33',
-    start_date: '2008/11/28',
-    salary: '$162.700',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a0',
-    name: 'Shou Itou',
-    position: 'Regional Marketing',
-    office: 'Tokyo',
-    age: '20',
-    start_date: '2011/08/14',
-    salary: '$163.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b4',
-    name: 'Jennifer Acosta',
-    position: 'Junior Javascript Developer',
-    office: 'Edinburgh',
-    age: '43',
-    start_date: '2013/02/01',
-    salary: '$75.650',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b7',
-    name: 'Lael Greer',
-    position: 'Systems Administrator',
-    office: 'London',
-    age: '21',
-    start_date: '2009/02/27',
-    salary: '$103.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925ba',
-    name: 'Michael Bruce',
-    position: 'Javascript Developer',
-    office: 'Singapore',
-    age: '29',
-    start_date: '2011/06/27',
-    salary: '$183.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9258d',
-    name: 'Jena Gaines',
-    position: 'office Manager',
-    office: 'London',
-    age: '30',
-    start_date: '2008/12/19',
-    salary: '$90.560',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92590',
-    name: 'Haley Kennedy',
-    position: 'Senior Marketing Designer',
-    office: 'London',
-    age: '43',
-    start_date: '2012/12/18',
-    salary: '$313.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9258c',
-    name: 'Sonya Frost',
-    position: 'Software Engineer',
-    office: 'Edinburgh',
-    age: '23',
-    start_date: '2008/12/13',
-    salary: '$103.600',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925ad',
-    name: 'Bruno Nash',
-    position: 'Software Engineer',
-    office: 'London',
-    age: '38',
-    start_date: '2011/05/03',
-    salary: '$163.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a3',
-    name: 'Prescott Bartlett',
-    position: 'Technical Author',
-    office: 'London',
-    age: '27',
-    start_date: '2011/05/07',
-    salary: '$145.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b5',
-    name: 'Cara Stevens',
-    position: 'Sales Assistant',
-    office: 'New York',
-    age: '46',
-    start_date: '2011/12/06',
-    salary: '$145.600',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b9',
-    name: 'Shad Decker',
-    position: 'Regional Director',
-    office: 'Edinburgh',
-    age: '51',
-    start_date: '2008/11/13',
-    salary: '$183.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92594',
-    name: 'Gloria Little',
-    position: 'Systems Administrator',
-    office: 'New York',
-    age: '59',
-    start_date: '2009/04/10',
-    salary: '$237.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a1',
-    name: 'Michelle House',
-    position: 'Integration Specialist',
-    office: 'Sidney',
-    age: '37',
-    start_date: '2011/06/02',
-    salary: '$95.400',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a8',
-    name: 'Hope Fuentes',
-    position: 'Secretary',
-    office: 'San Francisco',
-    age: '41',
-    start_date: '2010/02/12',
-    salary: '$109.850',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92591',
-    name: 'Tatyana Fitzpatrick',
-    position: 'Regional Director',
-    office: 'London',
-    age: '19',
-    start_date: '2010/03/17',
-    salary: '$385.750',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92589',
-    name: 'Herrod Chandler',
-    position: 'Sales Assistant',
-    office: 'San Francisco',
-    age: '59',
-    start_date: '2012/08/06',
-    salary: '$137.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b8',
-    name: 'Jonas Alexander',
-    position: 'Developer',
-    office: 'San Francisco',
-    age: '30',
-    start_date: '2010/07/14',
-    salary: '$86.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92592',
-    name: 'Michael Silva',
-    position: 'Marketing Designer',
-    office: 'London',
-    age: '66',
-    start_date: '2012/11/27',
-    salary: '$198.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92597',
-    name: 'Jenette Caldwell',
-    position: 'Development Lead',
-    office: 'New York',
-    age: '30',
-    start_date: '2011/09/03',
-    salary: '$345.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925ae',
-    name: 'Sakura Yamamoto',
-    position: 'Support Engineer',
-    office: 'Tokyo',
-    age: '37',
-    start_date: '2009/08/19',
-    salary: '$139.575',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92595',
-    name: 'Bradley Greer',
-    position: 'Software Engineer',
-    office: 'London',
-    age: '41',
-    start_date: '2012/10/13',
-    salary: '$132.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92599',
-    name: 'Caesar Vance',
-    position: 'Pre-Sales Support',
-    office: 'New York',
-    age: '21',
-    start_date: '2011/12/12',
-    salary: '$106.450',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92584',
-    name: 'Garrett Winters',
-    position: 'Accountant',
-    office: 'Tokyo',
-    age: '63',
-    start_date: '2011/07/25',
-    salary: '$170.750',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9259c',
-    name: 'Gavin Joyce',
-    position: 'Developer',
-    office: 'Edinburgh',
-    age: '42',
-    start_date: '2010/12/22',
-    salary: '$92.575',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a5',
-    name: 'Martena Mccray',
-    position: 'Post-Sales support',
-    office: 'Edinburgh',
-    age: '46',
-    start_date: '2011/03/09',
-    salary: '$324.050',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a9',
-    name: 'Vivian Harrell',
-    position: 'Financial Controller',
-    office: 'San Francisco',
-    age: '62',
-    start_date: '2009/02/14',
-    salary: '$452.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9258f',
-    name: 'Charde Marshall',
-    position: 'Regional Director',
-    office: 'San Francisco',
-    age: '36',
-    start_date: '2008/10/16',
-    salary: '$470.600',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92593',
-    name: 'Paul Byrd',
-    position: 'Chief Financial officer (CFO)',
-    office: 'New York',
-    age: '64',
-    start_date: '2010/06/09',
-    salary: '$725.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9259b',
-    name: 'Angelica Ramos',
-    position: 'Chief Executive officer (CEO)',
-    office: 'London',
-    age: '47',
-    start_date: '2009/10/09',
-    salary: '$1.200.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b2',
-    name: 'Zenaida Frank',
-    position: 'Software Engineer',
-    office: 'New York',
-    age: '63',
-    start_date: '2010/01/04',
-    salary: '$125.250',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b6',
-    name: 'Hermione Butler',
-    position: 'Regional Director',
-    office: 'London',
-    age: '47',
-    start_date: '2011/03/21',
-    salary: '$356.250',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92583',
-    name: 'Tiger Nixon',
-    position: 'System Architect',
-    office: 'Edinburgh',
-    age: '61',
-    start_date: '2011/04/25',
-    salary: '$320.800',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9259a',
-    name: 'Doris Wilder',
-    position: 'Sales Assistant',
-    office: 'Sidney',
-    age: '23',
-    start_date: '2010/09/20',
-    salary: '$85.600',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925bb',
-    name: 'Donna Snider',
-    position: 'Customer Support',
-    office: 'New York',
-    age: '27',
-    start_date: '2011/01/25',
-    salary: '$112.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92586',
-    name: 'Cedric Kelly',
-    position: 'Senior Javascript Developer',
-    office: 'Edinburgh',
-    age: '22',
-    start_date: '2012/03/29',
-    salary: '$433.060',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92598',
-    name: 'Yuri Berry',
-    position: 'Chief Marketing officer (CMO)',
-    office: 'New York',
-    age: '40',
-    start_date: '2009/06/25',
-    salary: '$675.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925a4',
-    name: 'Gavin Cortez',
-    position: 'Team Leader',
-    office: 'San Francisco',
-    age: '22',
-    start_date: '2008/10/26',
-    salary: '$235.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b1',
-    name: 'Serge Baldwin',
-    position: 'Data Coordinator',
-    office: 'Singapore',
-    age: '64',
-    start_date: '2012/04/09',
-    salary: '$138.575',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92588',
-    name: 'Brielle Williamson',
-    position: 'Integration Specialist',
-    office: 'New York',
-    age: '61',
-    start_date: '2012/12/02',
-    salary: '$372.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af9258e',
-    name: 'Quinn Flynn',
-    position: 'Support Lead',
-    office: 'Edinburgh',
-    age: '22',
-    start_date: '2013/03/03',
-    salary: '$342.000',
-  },
-  {
-    _id: '5efa45ebac19e51a5af92596',
-    name: 'Dai Rios',
-    position: 'Personnel Lead',
-    office: 'Edinburgh',
-    age: '35',
-    start_date: '2012/09/26',
-    salary: '$217.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925ac',
-    name: 'Olivia Liang',
-    position: 'Support Engineer',
-    office: 'Singapore',
-    age: '64',
-    start_date: '2011/02/03',
-    salary: '$234.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b0',
-    name: 'Finn Camacho',
-    position: 'Support Engineer',
-    office: 'San Francisco',
-    age: '47',
-    start_date: '2009/07/07',
-    salary: '$87.500',
-  },
-  {
-    _id: '5efa45ebac19e51a5af925b3',
-    name: 'Zorita Serrano',
-    position: 'Software Engineer',
-    office: 'San Francisco',
-    age: '56',
-    start_date: '2012/06/01',
-    salary: '$115.000',
-  },
-];
 export class table_schema {
   _id: String;
   name: String;
@@ -522,8 +7,100 @@ export class table_schema {
   start_date: String;
   salary: String;
 }
-export class NorthWind {
-  id: Number;
-  description: String;
-  name: String;
+
+export const columnlist = [
+  // { columId:0, key: '_id', value: 'Id' },
+  { columId: 1, key: 'name', value: 'Name & Surname' },
+  { columId: 2, key: 'position', value: 'Position' },
+  { columId: 3, key: 'office', value: 'Office' },
+  { columId: 4, key: 'age', value: 'Age' },
+  { columId: 5, key: 'start_date', value: 'Start Date' },
+  { columId: 6, key: 'salary', value: 'Salary' },
+];
+export class tableoperations {
+  static sortbyString(item: any, rows) {
+    switch (item.columId) {
+      case 1: {
+        return rows.sort(function (a, b) {
+          var nameA = a.name.toUpperCase();
+          var nameB = b.name.toUpperCase(); // ignore upper and lowercase
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      case 2: {
+        return rows.sort(function (a, b) {
+          var nameA = a.position.toUpperCase();
+          var nameB = b.position.toUpperCase(); // ignore upper and lowercase
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      case 3: {
+        return rows.sort(function (a, b) {
+          var nameA = a.office.toUpperCase();
+          var nameB = b.office.toUpperCase(); // ignore upper and lowercase
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      case 4: {
+        return rows.sort(function (a, b) {
+          var nameA = a.age.toUpperCase();
+          var nameB = b.age.toUpperCase(); // ignore upper and lowercase
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      case 5: {
+        rows.sort(function (a, b) {
+          var nameA = a.start_date.toUpperCase();
+          var nameB = b.start_date.toUpperCase(); // ignore upper and lowercase
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      case 6: {
+        rows.sort(function (a, b) {
+          var nameA = a.salary.toUpperCase();
+          var nameB = b.salary.toUpperCase(); // ignore upper and lowercase
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+          return 0;
+        });
+      }
+      default:
+        console.log(item.columId);
+    }
+    return rows;
+  }
 }

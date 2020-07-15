@@ -1,7 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { TableService } from 'src/services/table.service';
 import { HttpClient } from '@angular/common/http';
-import { table_schema } from 'src/data/table-example';
+import {
+  table_schema,
+  columnlist,
+  tableoperations,
+} from 'src/data/table-example';
 
 @Component({
   selector: 'app-admin-panel',
@@ -10,7 +14,10 @@ import { table_schema } from 'src/data/table-example';
 })
 export class AdminPanelComponent implements OnInit {
   data: table_schema[];
-
+  columnlist = columnlist;
+  sortbycolumn(item) {
+    tableoperations.sortbyString(item, this.data);
+  }
   constructor(private _tableservice: TableService, private http: HttpClient) {}
   public productsArray: table_schema[];
 
